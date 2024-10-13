@@ -1,0 +1,32 @@
+#ready-container {
+    background-color:  #171717;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 393px;
+}
+
+#ready h1 {
+    color: white; 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+#ready-button button {
+    background-color: green; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: 1.2rem;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+#ready-button button:hover {
+    background-color: #228B22; 
+    transform: scale(1.05); 
+}

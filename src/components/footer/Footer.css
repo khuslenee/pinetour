@@ -1,0 +1,35 @@
+#footer-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    height: 228px;
+    width: 100%;
+    padding: 0 20px; 
+    background-color: black; 
+    color: white; 
+}
+
+#footer-left {
+    font-size: 1.5rem; 
+    margin: 110px;
+}
+
+#footer-right #iamge {
+    height: 44px; 
+    width: 381px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 110px;
+}
+
+#footer-right img {
+    max-height: 100%; 
+    width: auto; 
+}
+
+
+#footer-right img:hover {
+    opacity: 0.8; 
+    transition: opacity 0.3s ease; 
+}
